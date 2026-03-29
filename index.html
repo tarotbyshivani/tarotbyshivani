@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarot by Shivani</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0d0d0d;
+      color: #f5f5f5;
+      text-align: center;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+	
+	header {
+	padding: 100px 20px;
+	}
+
+    /* HERO */
+    header {
+      padding: 80px 20px;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                  url('https://images.unsplash.com/photo-1608889175123-8ee362201f81');
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1 {
+	font-size: 2.8em;
+	color: gold;
+	/* remove this ↓ */
+	/* align: center; */
+	}
+	
+	.card {
+	transition: 0.3s;
+	}
+	
+	.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
+	}
+	
+	.review-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	}
+
+	.review {
+	background: #1a1a1a;
+	border: 1px solid #333;
+	padding: 15px;
+	border-radius: 10px;
+	width: 250px;
+	}
+
+    .btn-whatsapp {
+      margin-top: 25px;
+      padding: 15px 30px;
+      background: #25D366;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-whatsapp:hover
+	{
+     background: #1ebe5d;
+    }
+
+	.logo {
+	width: 100%;
+	height: auto;
+	
+	object-fit: cover;
+	display: block;
+	}
+
+    /* HOOK */
+    .hook {
+      padding: 40px 20px;
+      font-size: 1.2em;
+      color: #ddd;
+    }
+
+    /* SERVICES */
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid gold;
+      border-radius: 15px;
+      padding: 20px;
+      width: 220px;
+      position: relative;
+    }
+	
+	.btn-floating {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #25D366;
+	padding: 15px;
+	border-radius: 50%;
+	color: white;
+	font-size: 20px;
+	}
+
+    .popular {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: gold;
+      color: black;
+      padding: 5px 10px;
+      font-size: 0.8em;
+      border-radius: 10px;
+    }
+
+    /* TRUST */
+    .trust {
+      padding: 40px 20px;
+      line-height: 2;
+      color: #ccc;
+    }
+
+    /* VIDEO */
+    .video {
+      padding: 40px 20px;
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 400px;
+      height: 220px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    /* CONTACT */
+    .contact {
+      padding: 50px 20px;
+    }
+
+    footer {
+      padding: 20px;
+      border-top: 1px solid #333;
+    }
+
+    .social-links {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-link {
+      color: #f5f5f5;
+      text-decoration: none;
+    }
+	
+	.review-btn {
+	color: #ffffff;
+	}
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header>
+  
+ <!-- <img src=""C:\Users\simra\OneDrive\Desktop\Webiste\logo.png"" class="logo"> -->
+ 
+ <img src="logo.png" class="logo" alt="Tarot by Shivani Logo">
+
+  <h2>✨ Your Answers Are Already Written — Let Tarot Reveal Them ✨</h2>
+
+
+</header>
+
+<!-- HOOK -->
+<section class="hook">
+  
+  <h1>Welcome to Tarot by Shivani 🔮 <br></h1>A refined, private space for those seeking clarity beyond the surface.
+  With over 14 years of dedicated tarot practice, I offer deeply intuitive, precise, and spiritually aligned readings for individuals who value truth, discretion, and meaningful guidance. My work goes beyond predictions—each session is a personalized experience designed to help you navigate love, relationships, career decisions, and life transitions with confidence and awareness.
+  I connect with your energy to deliver insights that are honest, empowering, and aligned with your highest path. Every reading is conducted with complete confidentiality and respect, creating a safe and non-judgmental space for you to explore your questions freely.
+  This is not just a tarot reading—it is a premium spiritual consultation for those who seek clarity, alignment, and elevated guidance.
+</section>
+
+  <a class="btn-whatsapp"
+     href="https://wa.me/919892318322"
+     target="_blank">
+     👉 Book Your Reading Now
+  </a>
+
+<!-- SERVICES -->
+<section class="services">
+
+  <div class="card">✨ 5 Questions – ₹499</div>
+
+  <div class="card">✨ 10 Questions – ₹999</div>
+
+  <div class="card">
+    <div class="popular">Most Popular</div>
+    ✨ Deep Reading – ₹2500
+  </div>
+
+  <div class="card">✨ Monthly Guidance – ₹4500</div>
+
+</section>
+
+<!-- TRUST -->
+<section class="trust">
+  🌟 100+ Happy Clients<br>
+  🔒 100% Confidential<br>
+  🌍 Clients Worldwide
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact">
+  <a class="btn-whatsapp"
+     href="https://wa.me/919892318322?text=Hi%20Shivani,%20I%20want%20to%20book%20a%20tarot%20reading%20💫"
+     target="_blank">
+     📞 Chat on WhatsApp
+  </a>
+</section>
+
+<!-- GOOGLE REVIEWS -->
+<section class="reviews">
+
+  <h2>🌟 What Clients Say About Me 🌟</h2>
+
+  <div class="review-cards">
+
+    <div class="review">
+      ⭐⭐⭐⭐⭐  
+      <p>“Very accurate reading! Everything resonated so well. Highly recommended.”</p>
+    </div>
+
+    <div class="review">
+      ⭐⭐⭐⭐⭐  
+      <p>“Helped me gain clarity in my relationship. Thank you so much Shivani 💫”</p>
+    </div>
+
+    <div class="review">
+      ⭐⭐⭐⭐⭐  
+      <p>“Honest and straight to the point. I felt so relieved after the session.”</p>
+    </div>
+
+  </div>
+
+  <a class="review-btn" 
+     href="https://www.google.com/search?sca_esv=0a31cd057631a7ea&sxsrf=ANbL-n7VQEHXRbNVWLLbqKPzjcp2RNpgSw:1774190492932&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qORemWpesx8NoSbh_cFMwmVvPKKThTWHMTbd0F9myPZiQ6x8fFAPRIVjAHiuYfeXTUjJoRzpP8JeYsMloiGBL_dgqs1Z13yehWc5rIMfWij0zViwuPg%3D%3D&q=Tarot+by+Shivani+Reviews&sa=X&ved=2ahUKEwi54ODQ3rOTAxWNnmMGHXkUJXIQ0bkNegQIHBAF"
+     target="_blank">
+     👉 Read More Reviews on Google
+  </a>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Tarot by Shivani</p>
+
+  <div class="social-links">
+
+    <!-- Instagram -->
+    <a class="social-link"
+       href="https://www.instagram.com/tarotbyshivani?igsh=MWttaTZmamEwYnhlcw=="
+       target="_blank">
+       Instagram
+    </a>
+
+    <!-- Google -->
+    <a class="social-link"
+       href="https://share.google/0k3LeGv6040qK4QAh"
+       target="_blank">
+       Google
+    </a>
+
+  </div>
+</footer>
+
+</body>
+</html>
